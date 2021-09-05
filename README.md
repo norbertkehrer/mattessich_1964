@@ -1,2 +1,19 @@
-# mattessich_1964
-Simulation of the Firm through a Budget Computer Program in JavaScript
+# Simulation of the Firm through a Budget Computer Program in JavaScript
+
+In 1964, [Richard Mattessich](https://en.wikipedia.org/wiki/Richard_Mattessich) published his seminal book "Accounting and Analytical Methods", which was followed by the companion volume "Simulation of the Firm through a Budget Computer Program" in the same year. Therein, the theoretical concept of a budet simulation was implemented as a program in FORTRAN IV. As early as in 1961, Mattessich had proposed to use computers for budget simulation and so pioneered computerized spreadsheets already sixty years ago. The FORTRAN program implements a mathematical model to derive the company financials for the budgeting period from hundreds of input parameters defining the planning assumptions of that firm (like the sales prices expected for next year, the planned production quantities, etc.). The model aimed to cover all company activities and not only specific budgeting aspects like sales or production budget as in previous other approaches. Consequently, the ouptut provided by the program not only consists of the budgets per functional area but also of a full balance sheet, income statement, and cash flow statement for the budgeting period.
+
+The book luckily not only contains descriptions of the budgeting model and the computer program, but also the complete source code listing in FORTRAN IV as well as the full printout of a sample simulation run and the full set of input data used to generate it. The FORTRAN program itself was probably written by Paul A. Zitlau and Thomas C. Schneider, who were Richard Mattessich's collaborators at the University of California in Berkeley.
+
+I got especially interested in this early computer program, because Richard Mattessich's great book "Accounting and Analytical Methods" was a very important theoretical foundation upon which I based my own [master's thesis](https://katalog.wu.ac.at/primo-explore/fulldisplay?docid=WUW_alma2176478530003337&context=L&vid=WUW&lang=de_DE&search_scope=WU-Hochschulschriften&adaptor=Local%20Search%20Engine&tab=wuw_alles&query=any,contains,kehrer&offset=0) back in 1989. On top of that, Richard like me is from Austria, and - before he went to Berkeley - had received his PhD from the same alma mater as me (Vienna University of Economics and Business).
+
+As all the source code was available and even sample input and output was provided, I decided to port this old program to JavaScript to preserve it in digital form and to play around with it in the browser on modern hardware. The FORTRAN code contains mainly calculations on elements of number arrays, so the port was quite straight-forward. I felt a little bit like in the eighties, when I typed in long program listings from computer magazines in order to get a new game for my Commodore 64. Only, that in this case it was a more "serious" program, and that I had to rewrite the code in JavaScript while typing it in. The result is a web page, on which you can enter the input parameters in the browser and click a button to get all the simulation results. Keep in mind: Back in 1964 the input parameters had to be punched - number by number - on punched cards (obeying the exact order foreseen by the program) and this input card deck was then fed into the IBM mainframe's card reader together with the card deck for the simulation program.
+
+The source code of the original FORTRAN program is available from here:
+Richard Mattessich, in collaboration with Paul A. Zitlau and Thomas C. Schneider: "Simulation of the Firm through a Budget Computer Program", Irwin, Homewood, Illinois, 1964.
+
+You can try out the budget simulation with the original input data set published in Mattesich's book directly right here: norbertkehrer.github.io/mattessich/mattessich.html
+
+Have fun! Well, as much as you can get out of a budgeting program.
+
+Norbert
+
