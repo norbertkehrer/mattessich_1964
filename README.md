@@ -11,7 +11,7 @@ As all the source code was available and even sample input and output was provid
 The source code of the original FORTRAN program is available from here:
 Richard Mattessich, in collaboration with Paul A. Zitlau and Thomas C. Schneider: "Simulation of the Firm through a Budget Computer Program", Irwin, Homewood, Illinois, 1964.
 
-You can try out the budget simulation with the original input data set published in Mattesich's book directly right here: [norbertkehrer.github.io/mattessich/mattessich.html](norbertkehrer.github.io/mattessich/mattessich.html)
+You can try out the budget simulation with the original input data set published in Mattesich's book directly right here: [norbertkehrer.github.io/mattessich/mattessich.html](https://norbertkehrer.github.io/mattessich/mattessich.html)
 
 Have fun! Well, as much as you can get out of a budgeting program.
 
